@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Truculenta", sans-serif;
+}
+
+/* Body Styles */
+
+body {
+  background-image: url(./assets/paper.jpg);
+  color: rgb(45, 45, 42);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+/* Container Styles */
+
+.container {
+    text-align: center;
+  }
+
+h1 {
+  font-size: 2.5rem;
+    position: relative;
+}
+
+.underline {
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    height: 6px;
+    background-color: lightblue;
+    border-radius: 20px;
+    transform: translateX(-50%);
+}
+
+.cont-icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rock {
+  color: rgb(65, 51, 37);
+}
+
+.paper {
+  color: rgb(211, 250, 214);
+}
+
+.scissors {
+  color: rgb(189, 213, 234);
+}
+
+/* Font Awesome Icons Styles */
+
+i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+i:hover{
+ transform: scale(1.5);
+ color: rgba(45, 45, 42, 0.7);
+ transition: .5s ease;
+}
+
+.result-text {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(189, 213, 234, 0.6);
+}
+
+
+
